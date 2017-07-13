@@ -24,12 +24,12 @@ public class TextAdapter extends RecyclerView.Adapter<TextViewHolder> {
     @Override
     public void onBindViewHolder(TextViewHolder holder, int position) {
         holder.tvText.setText("无花果"+position);
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
+       /* holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
-        });
+        });*/
     }
 
     @Override
