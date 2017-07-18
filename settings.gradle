@@ -1,1 +1,1 @@
-include ':RvLib', ':myapplication'
+include ':RvLib', ':myapplication', ':MaterialDesign', ':commonutil'
